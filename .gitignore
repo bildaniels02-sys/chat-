@@ -1,0 +1,48 @@
+# Fichiers et dossiers à ignorer dans Git
+
+# Fichiers de configuration sensibles
+config.php
+
+# Fichiers de débogage et journaux
+*.log
+error.log
+debug.log
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Caches
+.cache/
+__pycache__/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Système d'exploitation
+.DS_Store
+Thumbs.db
+.env
+
+# Environnement Node (si applicable)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Variables d'environnement
+.env
+.env.local
+.env.*.local
+
+# Fichiers de session PHP
+session/
+tmp/
+
+# PHPMyAdmin
+phpmyadmin/
